@@ -1,10 +1,8 @@
 # vue-brass
 
-brass integration for vue
+[brass](https://github.com/jaqen404/brass) integration for vue
 
-brass 的 vue 插件
-
-先要安装[brass](https://github.com/jaqen404/brass)
+[brass](https://github.com/jaqen404/brass) 的 vue 插件
 
 ## 安装
 

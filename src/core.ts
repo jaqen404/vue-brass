@@ -5,7 +5,7 @@ import { Store } from './model'
 
 export const useStore  = (store: Store) => {
   const {initialState, brassData$} = store
-  let vueStore = reactive({ state: initialState, getters: {}, ...store.actions, ...store.mutations })
+  let vueStore: any = reactive({ state: initialState, ...store.actions, ...store.mutations })
   brassData$.subscribe((newData: any) => {
     vueStore.state = newData.state;
     vueStore.getters = newData.getters;

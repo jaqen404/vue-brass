@@ -2,6 +2,7 @@
 
 brass integration for vue
 brass 的 vue 插件
+先要安装[brass](https://github.com/jaqen404/brass)
 
 # 安装
 
@@ -60,7 +61,7 @@ export const useFirstStore = createVueStore(
 <template>
     <div>
         <div @click="handleClick">{{ store.doubleCount }}</div>
-
+        <div @click="handleClickName">{{store.people.name}}</div>
         <div @click="handleClick">{{ store.count }}</div>
     <div>
 </template>
@@ -75,7 +76,12 @@ export default defineComponent({
         const handleClick = () => {
             store.add(1);
         };
-        return { handleClick, store };
+        const handleClickName = () = {
+          store.setState(state => {
+            state.people.name = state.people.name + state.count;
+          })
+        }
+        return { handleClick, handleClickName, store };
     },
 });
 </script>

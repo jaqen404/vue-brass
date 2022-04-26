@@ -6,7 +6,7 @@ brass 的 vue 插件
 
 先要安装[brass](https://github.com/jaqen404/brass)
 
-# 安装
+## 安装
 
 ```bash
 yarn add @jaqen404/vue-brass
@@ -18,7 +18,7 @@ or
 npm install @jaqen404/vue-brass
 ```
 
-# 使用
+## 使用
 
 ```js
 // store.js

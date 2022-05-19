@@ -78,7 +78,7 @@ export default defineComponent({
         };
         const handleClickName = () => {
           store.setState(state => {
-            state.people.name = state.people.name + state.count;
+            state.people.name += state.count;
           })
         }
         return { handleClick, handleClickName, store };

@@ -28,12 +28,13 @@
   resolved "https://registry.yarnpkg.com/@babel/parser/-/parser-7.17.9.tgz#9c94189a6062f0291418ca021077983058e171ef"
   integrity sha512-vqUSBLP8dQHFPdPi9bc5GK9vRkYHJ49fsZdtoJ8EQ8ibpwk5rPKfvNIwChB0KVXcIjcepEBBd2VHC5r9Gy8ueg==
 
-"@jaqen404/brass@^0.0.15":
-  version "0.0.15"
-  resolved "https://registry.yarnpkg.com/@jaqen404/brass/-/brass-0.0.15.tgz#2b47fe06c2012dfa89208f8a93960ec119a9ccce"
-  integrity sha512-QDQ3sR61Hq0E2LJoJ+wG7YiYEd/ZUNiBhMSljI8VScSj/36ohDRO461TTM73/wwodyoABIm4Fro5SE3r6NcQIA==
+"@jaqen404/brass@^0.0.22":
+  version "0.0.22"
+  resolved "https://registry.yarnpkg.com/@jaqen404/brass/-/brass-0.0.22.tgz#fa6a15070307d241b76843f7e6fc74d3f3ee2483"
+  integrity sha512-56JkCj8enJlB3FkXM/wxM9TmYAdS287hIf/AWbOQIAL155SYsxkdI++DPSpbdtmlzuoBffW3Z/zFl3MD6h70XQ==
   dependencies:
     immer "^9.0.12"
+    ramda "^0.28.0"
     rxjs "^7.5.5"
 
 "@parcel/bundler-default@2.4.1":
@@ -1334,6 +1335,11 @@ posthtml@^0.16.4, posthtml@^0.16.5:
   dependencies:
     posthtml-parser "^0.11.0"
     posthtml-render "^3.0.0"
+
+ramda@^0.28.0:
+  version "0.28.0"
+  resolved "https://registry.yarnpkg.com/ramda/-/ramda-0.28.0.tgz#acd785690100337e8b063cab3470019be427cc97"
+  integrity sha512-9QnLuG/kPVgWvMQ4aODhsBUFKOUmnbUnsSXACv+NCQZcHbeb+v8Lodp8OVxtRULN1/xOyYLLaL6npE6dMq5QTA==
 
 react-refresh@^0.9.0:
   version "0.9.0"

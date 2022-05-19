@@ -1,6 +1,6 @@
 {
   "name": "@jaqen404/vue-brass",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "brass integration for vue",
   "source": "src/index.ts",
   "main": "dist/main.js",
@@ -30,7 +30,7 @@
     "typescript": ">=3.0.0"
   },
   "dependencies": {
-    "@jaqen404/brass": "^0.0.20",
+    "@jaqen404/brass": "^0.0.22",
     "vue": "^3.2.33"
   },
   "repository": {

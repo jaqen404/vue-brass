@@ -1,6 +1,6 @@
 {
   "name": "@jaqen404/vue-brass",
-  "version": "0.0.10",
+  "version": "0.0.11",
   "description": "brass integration for vue",
   "source": "src/index.ts",
   "main": "dist/main.js",

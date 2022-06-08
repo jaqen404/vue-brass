@@ -8,7 +8,6 @@ export const useStore = (store: Store, strict: boolean) => {
     strict
       ? {
           state: initialState,
-          setState,
         }
       : {
           state: initialState,
